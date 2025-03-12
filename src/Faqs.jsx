@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
-export const Faqs = () => {
+ const Faqs = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
@@ -103,3 +103,6 @@ export const Faqs = () => {
     </section>
   );
 };
+
+
+export default Faqs

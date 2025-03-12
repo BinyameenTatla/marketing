@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export const Pricing = () => {
+const Pricing = () => {
   const plans = [
     {
       title: "Starter",
@@ -103,3 +103,5 @@ export const Pricing = () => {
     </section>
   );
 };
+
+export  default Pricing

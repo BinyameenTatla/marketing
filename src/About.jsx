@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export const About = () => {
+ const About = () => {
   return (
     <section className="w-full bg-black py-20 mb-10">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 grid md:grid-cols-2 gap-12 items-center">
@@ -46,3 +46,5 @@ export const About = () => {
     </section>
   );
 };
+
+export default About

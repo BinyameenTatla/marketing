@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <section className="w-full bg-black py-20">
       <div className="max-w-5xl mx-auto px-6 lg:px-12">
@@ -92,3 +92,6 @@ export const Contact = () => {
     </section>
   );
 };
+
+
+export  default Contact

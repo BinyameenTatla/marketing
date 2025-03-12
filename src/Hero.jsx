@@ -1,6 +1,15 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 export const Hero = () => {
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = "/oo.webp"; // Ensure the path is correct
+    document.head.appendChild(link);
+  }, []);
+
   return (
     <section className="w-full min-h-screen bg-gray-50 relative">
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center px-6 lg:px-12 py-20">
@@ -12,8 +21,8 @@ export const Hero = () => {
             transition={{ duration: 0.5 }}
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 leading-tight"
           >
-            Elevate Your Business with  
-            <span className="text-blue-600"> Expert Solutions</span>
+            Elevate Your Business with{" "}
+            <span className="text-blue-600">Expert Solutions</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -21,9 +30,10 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-4 text-gray-600 text-base sm:text-lg"
           >
-            We craft stunning, high-performance websites tailored to elevate your brand’s digital presence.  
-            Our designs are sleek, responsive, and optimized for maximum engagement.  
-            Unlock your business's true potential with cutting-edge web solutions.
+            We craft stunning, high-performance websites tailored to elevate your
+            brand’s digital presence. Our designs are sleek, responsive, and
+            optimized for maximum engagement. Unlock your business's true
+            potential with cutting-edge web solutions.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -64,7 +74,7 @@ export const Hero = () => {
               ease: "easeInOut",
             }}
             className="transform transition-transform duration-500 hover:scale-105 rotate-6 sm:-rotate-6"
-            src="oo.webp"
+            src="/oo.webp"
             alt="Agency Hero"
             width={500} // Set explicit width
             height={500} // Set explicit height

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export const Client = () => {
+const Client = () => {
   const clients = [
     { name: "Google", logo: "i.webp" },
     { name: "Facebook", logo: "f.webp" },
@@ -97,3 +97,6 @@ export const Client = () => {
     </section>
   );
 };
+
+
+export default Client

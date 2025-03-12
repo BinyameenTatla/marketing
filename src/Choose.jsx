@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { CheckCircleIcon } from "lucide-react";
 
-export const Choose = () => {
+const Choose = () => {
   const reasons = [
     {
       title: "Expert Team with Proven Results",
@@ -97,3 +97,6 @@ export const Choose = () => {
     </section>
   );
 };
+
+
+export  default Choose

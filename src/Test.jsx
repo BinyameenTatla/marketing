@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { StarIcon } from "lucide-react";
 
-export const Test = () => {
+const Test = () => {
   const testimonials = [
     {
       name: "John Doe",
@@ -93,3 +93,6 @@ export const Test = () => {
     </section>
   );
 };
+
+
+export default Test
