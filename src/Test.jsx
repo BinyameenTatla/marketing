@@ -8,21 +8,21 @@ export const Test = () => {
       role: "CEO, Tech Solutions",
       feedback:
         "Working with this team has been a game-changer for our business. We’ve seen a significant increase in traffic and customer engagement since launching our new site.",
-      image: "opp.jpg",
+      image: "opp.webp",
     },
     {
       name: "Emily Smith",
       role: "Marketing Manager, Creative Hub",
       feedback:
         "I was impressed by their ability to understand our vision and translate it into a website that truly reflects our brand identity. The seamless user experience ",
-      image: "kx.webp",
+      image: "kx.jpg",
     },
     {
       name: "Michael Johnson",
       role: "Founder, Startup Co.",
       feedback:
         "The team’s professionalism and expertise made the entire development process smooth and efficient. They provided valuable insights and ensured that every element of the site was optimized for performance",
-      image: "kx.webp",
+      image: "kx.jpg",
     },
   ];
 
