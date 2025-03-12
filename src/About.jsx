@@ -12,8 +12,10 @@ export const About = () => {
           className="overflow-hidden rounded-2xl shadow-md"
         >
           <img
-            src="kll.jpeg"
+            src="kll.webp"
             alt="About us"
+            width="320"
+            height="320"
             className="w-[320px] h-[320px] md:w-[400px] md:h-[400px] object-cover"
           />
         </motion.div>
