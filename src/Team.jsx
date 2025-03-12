@@ -7,7 +7,7 @@ const teamMembers = [
     position: "Senior Web Designer",
     description:
       "John crafts visually appealing, user-friendly websites that enhance user experience and drive conversions.",
-    image: "opp.jpg",
+    image: "opp.webp",
     linkedin: "#",
     twitter: "#",
   },
@@ -16,7 +16,7 @@ const teamMembers = [
     position: "SEO Specialist",
     description:
       "Jane helps businesses rank higher on search engines by implementing cutting-edge SEO strategies.",
-    image: "pp.jpg",
+    image: "pp.webp",
     linkedin: "#",
     twitter: "#",
   },
@@ -25,7 +25,7 @@ const teamMembers = [
     position: "Backlink Expert",
     description:
       "Emily builds high-quality backlinks to boost domain authority and improve search engine rankings.",
-    image: "ll.jpg",
+    image: "ll.webp",
     linkedin: "#",
     twitter: "#",
   },

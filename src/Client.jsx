@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 export const Client = () => {
   const clients = [
-    { name: "Google", logo: "i.jpg" },
-    { name: "Facebook", logo: "f.jpg" },
-    { name: "Microsoft", logo: "m.jpg" },
-    { name: "Netflix", logo: "k.jpg" },
-    { name: "Amazon", logo: "d.jpg" },
+    { name: "Google", logo: "i.webp" },
+    { name: "Facebook", logo: "f.webp" },
+    { name: "Microsoft", logo: "m.webp" },
+    { name: "Netflix", logo: "k.webp" },
+    { name: "Amazon", logo: "d.webp" },
   ];
 
   return (

@@ -67,7 +67,7 @@ Unlock your business's true potential with cutting-edge web solutions.
             }}
             className="w-40 sm:w-64 md:w-72 lg:w-[450px] xl:w-[500px] transform transition-transform duration-500 hover:scale-105 
                        rotate-6 sm:-rotate-6" // Right on mobile, left on desktop
-            src="oo.png"
+            src="oo.webp"
             alt="Agency Hero"
           />
         </div>
