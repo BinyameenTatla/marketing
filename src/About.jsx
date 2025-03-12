@@ -14,7 +14,7 @@ export const About = () => {
           <img
             src="kll.jpeg"
             alt="About us"
-            className="w-full h-80 object-cover"
+            className="w-[320px] h-[320px] md:w-[400px] md:h-[400px] object-cover"
           />
         </motion.div>
 

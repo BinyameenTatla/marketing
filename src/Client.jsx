@@ -10,14 +10,14 @@ export const Client = () => {
   ];
 
   return (
-    <section className="w-full py-20 bg-gray-50 ">
+    <section className="w-full py-20 bg-gray-50 relative">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Heading */}
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-bold text-center "
+          className="text-3xl md:text-4xl font-bold text-center"
         >
           Our <span className="text-blue-600">Clients</span>
         </motion.h2>
@@ -56,16 +56,18 @@ export const Client = () => {
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-16 w-auto   transition duration-300"
+                width={100} // ✅ Explicit width
+                height={40} // ✅ Explicit height
+                className="object-contain transition duration-300"
               />
             </motion.div>
           ))}
         </motion.div>
       </div>
 
-      {/* Background Animation */}
+      {/* Background Animations */}
       <motion.div
-        className="absolute top-20 left-10 w-24 h-24 bg-blue-100 rounded-full opacity-30"
+        className="absolute top-16 left-16 w-28 h-28 bg-blue-100 rounded-full opacity-30"
         animate={{
           scale: [1, 1.2, 1],
           x: [0, 10, -10, 0],
@@ -79,7 +81,7 @@ export const Client = () => {
         }}
       />
       <motion.div
-        className="absolute bottom-20 right-10 w-16 h-16 bg-blue-200 rounded-full opacity-40"
+        className="absolute bottom-16 right-16 w-20 h-20 bg-blue-200 rounded-full opacity-40"
         animate={{
           scale: [1, 1.2, 1],
           x: [0, -10, 10, 0],

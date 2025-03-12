@@ -14,14 +14,14 @@ export const Test = () => {
       name: "Emily Smith",
       role: "Marketing Manager, Creative Hub",
       feedback:
-        "I was impressed by their ability to understand our vision and translate it into a website that truly reflects our brand identity. The seamless user experience ",
+        "I was impressed by their ability to understand our vision and translate it into a website that truly reflects our brand identity. The seamless user experience.",
       image: "opp.webp",
     },
     {
       name: "Michael Johnson",
       role: "Founder, Startup Co.",
       feedback:
-        "The team’s professionalism and expertise made the entire development process smooth and efficient. They provided valuable insights and ensured that every element of the site was optimized for performance",
+        "The team’s professionalism and expertise made the entire development process smooth and efficient. They provided valuable insights and ensured that every element of the site was optimized for performance.",
       image: "opp.webp",
     },
   ];
@@ -63,7 +63,9 @@ export const Test = () => {
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-14 h-14 rounded-full object-cover"
+                  width="56"
+                  height="56"
+                  className="w-[56px] h-[56px] md:w-[64px] md:h-[64px] rounded-full object-cover"
                 />
                 <div>
                   <h3 className="text-lg font-semibold">{testimonial.name}</h3>

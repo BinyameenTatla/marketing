@@ -16,7 +16,7 @@ const teamMembers = [
     position: "SEO Specialist",
     description:
       "Jane helps businesses rank higher on search engines by implementing cutting-edge SEO strategies.",
-    image: "pp.webp",
+    image: "opp.webp",
     linkedin: "#",
     twitter: "#",
   },
@@ -25,7 +25,7 @@ const teamMembers = [
     position: "Backlink Expert",
     description:
       "Emily builds high-quality backlinks to boost domain authority and improve search engine rankings.",
-    image: "ll.webp",
+    image: "oo.webp",
     linkedin: "#",
     twitter: "#",
   },
@@ -67,11 +67,13 @@ export const Team = () => {
               }}
               className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 text-center"
             >
-              {/* Smaller Image */}
+              {/* Smaller Image with explicit width and height */}
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-24 h-24 rounded-full mx-auto object-cover border-4 border-blue-100"
+                className="rounded-full mx-auto object-cover border-4 border-blue-100"
+                width="96"
+                height="96"
               />
               <h3 className="mt-4 text-xl font-semibold text-gray-800">
                 {member.name}

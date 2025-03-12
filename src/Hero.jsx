@@ -21,10 +21,9 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-4 text-gray-600 text-base sm:text-lg"
           >
-           We craft stunning, high-performance websites tailored to elevate your brand’s digital presence.
-Our designs are sleek, responsive, and optimized for maximum engagement.
-Unlock your business's true potential with cutting-edge web solutions.
-
+            We craft stunning, high-performance websites tailored to elevate your brand’s digital presence.  
+            Our designs are sleek, responsive, and optimized for maximum engagement.  
+            Unlock your business's true potential with cutting-edge web solutions.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -32,7 +31,6 @@ Unlock your business's true potential with cutting-edge web solutions.
             transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-8 flex justify-center lg:justify-start space-x-4"
           >
-            {/* Smaller Padding on Mobile */}
             <a
               href="#get-started"
               className="bg-blue-600 text-white px-3 py-1.5 sm:px-6 sm:py-3 text-sm sm:text-base rounded-full hover:bg-blue-500 transition duration-300 shadow-md"
@@ -65,10 +63,11 @@ Unlock your business's true potential with cutting-edge web solutions.
               duration: 1,
               ease: "easeInOut",
             }}
-            className="w-40 sm:w-64 md:w-72 lg:w-[450px] xl:w-[500px] transform transition-transform duration-500 hover:scale-105 
-                       rotate-6 sm:-rotate-6" // Right on mobile, left on desktop
+            className="transform transition-transform duration-500 hover:scale-105 rotate-6 sm:-rotate-6"
             src="oo.webp"
             alt="Agency Hero"
+            width={500} // Set explicit width
+            height={500} // Set explicit height
           />
         </div>
       </div>
