@@ -19,8 +19,9 @@ createRoot(document.getElementById('root')).render(
   <Navbar />
   <Hero />
   <Services />
-  <Client />
   <Choose />
+  <Client />
+  
   <Team />
   <About />
   <Test />
